@@ -1,1 +1,1 @@
-# enjoy_streaming_server
+# Denver Streaming Server
