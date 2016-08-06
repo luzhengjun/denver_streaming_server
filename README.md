@@ -12,7 +12,7 @@ $make<br />
 
 <b>Usage</b><br />
 //Edit the playlsit file pgmlist.txt. Each line in pgmlist.txt indicate one clip.<br />
-//Struct of each line is "<input file location>#<output url>#<frames>".<br />
+//Struct of each line is &quot;&lt;input file location&gt;#&lt;output url&gt;#&lt;frames&gt;&quot;.<br />
 //<output url> limited to ts muxed multicast streams. <frames> limited to 25fps. So input file should only be 25fps.<br />
 $vi pgmlist.txt<br />
 $./main<br />
