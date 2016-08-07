@@ -2,6 +2,8 @@
 <b>Requirements</b><br />
 //Install lastest FFmpeg software properly first.<br />
 //In this progress, you may need to install some supporting software.<br />
+$git clone git://source.ffmpeg.org/ffmpeg.git ffmpeg<br />
+$cd ffmpeg<br />
 $./configure --enable-version3 --enable-nonfree --enable-gpl --enable-libfaac --enable-libfdk-aac --enable-libmp3lame --enable-libopenh264 --enable-libopenjpeg --enable-libtwolame --enable-libvo-aacenc --enable-libvpx --enable-libx264 --enable-libx265 --enable-libxvid --prefix=/usr/local/ffmpeg<br />
 $make<br />
 $sudo make install<br />
