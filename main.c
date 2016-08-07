@@ -11,7 +11,7 @@ int main(){
 	memset(lineBuf, '\0', 500);
 
 	FILE *fp;
-	if((fp = fopen("./pgmlist.txt", "r")) == NULL){
+	if((fp = fopen("./playlist.txt", "r")) == NULL){
 		fprintf(stderr, "Cannot open the target file.\n");
 		return 1;
 	}else{
