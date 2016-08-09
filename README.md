@@ -15,6 +15,6 @@ $make<br />
 <b>Usage</b><br />
 Edit the playlsit file playlist.txt. Each line in pgmlist.txt indicate one clip. Every clip should only be 25fps.<br /> 
 Struct of each line is &quot;&lt;input file location&gt;#&lt;output url&gt;#&lt;frames&gt;&quot;.<br /> 
-&lt;output url&gt;: limited to ts muxed multicast streams. &lt;frames&gt;: the number of frames to stream.<br />
+&lt;output url&gt;: limited to ts muxed udp/multicast streams. &lt;frames&gt;: the number of frames to stream.<br />
 $vi playlist.txt<br />
 $./main<br />
