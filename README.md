@@ -1,5 +1,5 @@
 # Denver Streaming Server
-Denver Streming Server is a streaming software based on Linux platform. The expected inputs of this software are video files encoded with h.264, h.265, vp9, etc. And the output is a ts muxed udp/multicast stream with the same video compression standard.<br />  
+Denver Streming Server is a streaming software based on Linux platform. The expected inputs of this software are video files encoded with h.264, h.265, vp9, etc. And the output is a ts muxed udp/multicast stream, without changing video/audio format.<br />  
 <b>Requirements</b><br />
 Install lastest FFmpeg software properly first. In this progress, you may need to install some supporting software.<br />
 $git clone git://source.ffmpeg.org/ffmpeg.git ffmpeg<br />
