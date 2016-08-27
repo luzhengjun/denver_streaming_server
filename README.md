@@ -1,5 +1,5 @@
 # Denver Streaming Server
-Denver Streming Server is a streaming software on Linux platform, released under the GNU General Public License (GPL). The expected inputs of this software are video files encoded by h.264, h.265, vp9, etc. The output is a ts-muxed multicast stream, without changing video/audio formats.<br />
+Denver Streming Server is a streaming software on Linux platform, released under the GNU General Public License (GPL). The expected inputs of this software are video files encoded by h.264, h.265, vp9, etc. The output is a ts-muxed multicast stream, without changing video/audio encoding formats.<br />
 
 <b>Requirements</b><br />
 Install lastest FFmpeg software properly first. In this progress, you may need to install some supporting software.<br />
